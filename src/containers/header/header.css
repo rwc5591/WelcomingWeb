@@ -1,0 +1,24 @@
+.headercontent{
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+
+}
+.headerbuttons button{
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #08c4dd;
+    border: 2px solid #1a1717;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none; 
+    
+}

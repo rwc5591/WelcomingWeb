@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.navbarlinks{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbarlinksLogo{
+    margin-right: 2rem;
+    letter-spacing: 5px;
+    font-family: monospace;
+    
+}
+.navbarlinkscontainer{
+    display: flex;
+    flex-direction: row;
+}
+.navbarlinkscontainer p,
+.navbarlinksmenucontainer p{
+color: #fff;
+font-size: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+margin: 0 1rem;
+cursor: pointer;
+}
