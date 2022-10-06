@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Header, Other, About } from './containers'
+import { Footer, Header, Resources, About } from './containers'
 import { Navbar } from './components'
 import './App.css'
 
@@ -10,11 +10,10 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
-      {/* 
+       
       <About />
-      
-      <Other />
-      */}
+      <Resources />
+    
       <Footer /> 
     </div>
   )
