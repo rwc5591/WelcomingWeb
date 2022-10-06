@@ -11,7 +11,7 @@ const Header = () => {
         <div className='headerbuttons'>
           <button type='button'> Kids</button>
           <button type='button'> Adults</button>
-          <button type='button'> Other</button>
+          <button type='button'> Resources</button>
         </div>
       
       </div>
