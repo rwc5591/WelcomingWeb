@@ -10,7 +10,7 @@ const Navbar = () => {
           <h1>WelcomingWeb</h1>
         </div>
         <div className='navbarlinkscontainer'>
-          <p><a href='#home'>Home</a></p>
+          <p><a href='./home'>Home</a></p>
           <p><a href='#About'>About</a></p>
           <p><a href='#Kids'>Kids</a></p>
           <p><a href='#Adults'>Adults</a></p>
@@ -22,5 +22,4 @@ const Navbar = () => {
       </div>
   )
 }
-
 export default Navbar
