@@ -3,6 +3,6 @@ import './home.css'
 
 export function Home(){
     return (
-        <div><h1>Home works!</h1></div>
+        <div className='Home' id='Home'><h1>Home works!</h1></div>
     )
 }

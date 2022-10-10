@@ -23,7 +23,7 @@
 }
 .navbarlinkscontainer p,
 .navbarlinksmenucontainer p{
-color: #fff;
+color: rgb(234, 183, 15);
 font-size: var(--font-family);
 font-weight: 500;
 font-size: 18px;

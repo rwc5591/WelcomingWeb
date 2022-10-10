@@ -14,7 +14,8 @@ const Navbar = () => {
           <p><a href='#About'>About</a></p>
           <p><a href='#Kids'>Kids</a></p>
           <p><a href='#Adults'>Adults</a></p>
-          <p><a href='#resources'></a>Resources</p>
+          <p><a href='#Resources'>Resources</a></p>
+          
         </div>
       </div>   
       </div>
