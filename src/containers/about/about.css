@@ -4,6 +4,11 @@
     scroll-behavior: smooth;
 }
 body{
-    width: 300px;
+    width: 900px;
     height: 300px;
+}
+h2{
+    font-weight: 600dp;
+    font-size: 30px;
+    color: rgb(12, 12, 11);
 }

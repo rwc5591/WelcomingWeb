@@ -4,6 +4,7 @@
     align-items: flex-start;
     flex-direction: column;
     display: flex;
+    
 
 }
 .headerbuttons button{
@@ -21,4 +22,9 @@
     cursor: pointer;
     outline: none; 
     
+    
+}
+section{
+    margin-top: 120px;
+   
 }

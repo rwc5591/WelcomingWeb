@@ -4,8 +4,11 @@ import './adults.css'
 const Adults = () => {
   return (
   
-    <div className='Adults' id='Adults'>Adults
-    <body>
+    <div className='Adults' id='Adults'>
+      <body>
+      <div>
+          <h2> Adults</h2>
+        </div>
       
     </body>
     </div>

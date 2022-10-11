@@ -4,8 +4,11 @@ const Kids = () => {
   return (
     <div className='Kids' id='Kids'>
       
-      Kids
-    <body>
+     
+      <body>
+        <div>
+          <h2> Kids</h2>
+        </div>
       
     </body></div>
   )
