@@ -1,17 +1,15 @@
 import React from 'react'
 import './adults.css'
+import {Resources} from '../../containers'
 
 const Adults = () => {
   return (
-  
     <div className='Adults' id='Adults'>
-      <body>
-      <div>
-          <h2> Adults</h2>
-        </div>
-      
+    <body>Adults works!
+    This is the adults page! We'll have an educational game here and add more parts if we have time.
     </body>
-    </div>
+    <Resources />
+</div>
   )
 }
 

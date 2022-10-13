@@ -13,23 +13,23 @@ const App = () => {
     <div className='App'>
       <div className='gradient_bg'>
         <Navbar />
-        <Header />
+        {/**<Header /> */}
       </div>
-      <About />
+      {/**<About />}
       {/**<Kids />}
-      {<Adults/>}
-      
-  {<Resources />*/}
+  {<Adults/> */}
     
-      <Footer /> 
+    
+      {/**<Footer /> */} 
       <BrowserRouter>
       <Routes>
         {/**<Route path = "/" element={<Navbar />}> </Route>*/}
-          {/**<Route index element={<Home />}> */}
           <Route path = "Home" element = {<Home />} />
+          <Route path = "About" element = {<About />} />
           <Route path = "Kids" element ={<Kids />} />
           <Route path = "Adults" element ={<Adults />} />
           <Route path = "Resources" element ={<Resources />} />
+
         {/**</Route>*/}
       </Routes>
       </BrowserRouter>

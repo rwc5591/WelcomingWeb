@@ -1,36 +1,32 @@
 .navbar{
     display: flex;
-    position: fixed;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 6rem;
-   
+    padding: 2rem 2rem;
+    text-align: center;
+    background-color: var(--color-bg);
 }
 
 .navbarlinks{
-    flex: 1;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    background-color: var(--color-bg);
 }
 .navbarlinksLogo{
-    margin-right: 2rem;
     letter-spacing: 5px;
     font-family: monospace;
-    
 }
+
 .navbarlinkscontainer{
-    display: flex;
     flex-direction: row;
 }
 .navbarlinkscontainer p,
 .navbarlinksmenucontainer p{
-color: rgb(234, 183, 15);
+color: rgb(255, 255, 255);
 font-size: var(--font-family);
 font-weight: 500;
 font-size: 18px;
-line-height: 25px;
+line-height: 30px;
 text-transform: capitalize;
 margin: 0 1rem;
+display: inline;
 cursor: pointer;
 }
