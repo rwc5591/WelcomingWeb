@@ -14,81 +14,71 @@
     <link rel="stylesheet" href="home.css">
   </head>
 
-  <div>
+  <body>
+    <!--Logo-->
+    <h1>Welcoming Web</h1>
+
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-scroll">
-      <a class="navbar-brand" href="#">Welcoming Web</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-md navbar-light bg-light mb-4 nav-justified">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <div class="collapse navbar-collapse nav justify-content-center" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Adults</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Kids</a>
+              <a class="nav-link" href="#">Kids</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Adults</a>
+              <a class="nav-link" href="#">Learning</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Learn More</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Resources
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+              <a class="nav-link" href="#">Resources</a>
             </li>
           </ul>
         </div>
+      </div>
     </nav>
     <!-- NavBar -->
-  </div>
+  </body>
+  
+
 
   <body>
     <div>
       <!-- Clickable Table -->
       <table>
         <tr>
-          <th colspan="4">
-            <h1>Welcoming Web</h1>
-            <h2>Description</h2>
-          </th>
-        </tr>
-        <tr>
-          <td>
+          <td class="table-kid">
             <h3>I am a kid</h3>
-            <p class="chart-text">Click here if you are a kid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, 
+            <p class="chart-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, 
               suscipit libero? Aliquam architecto eaque accusamus animi id totam, 
               necessitatibus dolor eos aut commodi eum facilis debitis cupiditate 
               asperiores nam vero.</p>
           </td>
-          <td>
-            <h3>I am and adult</h3>
-            <p class="chart-text"> Click here if you are an adult. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, 
+          <td class="table-adult">
+            <h3>I am an adult</h3>
+            <p class="chart-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, 
               suscipit libero? Aliquam architecto eaque accusamus animi id totam, 
               necessitatibus dolor eos aut commodi eum facilis debitis cupiditate 
               asperiores nam vero.</p>
           </td>
-          <td>
+          <td class="table-learn">
             <h3>I want to learn more</h3>
-            <p class="chart-text">Click here if you want to learn about disability and accessibility. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, 
+            <p class="chart-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, 
               suscipit libero? Aliquam architecto eaque accusamus animi id totam, 
               necessitatibus dolor eos aut commodi eum facilis debitis cupiditate 
               asperiores nam vero.</p>
           </td>
-          <td>
+          <td class="table-resources">
             <h3>I want to see more resources</h3>
-            <p class="chart-text">Click here if you want to see related websites. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, 
+            <p class="chart-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, 
               suscipit libero? Aliquam architecto eaque accusamus animi id totam, 
               necessitatibus dolor eos aut commodi eum facilis debitis cupiditate 
               asperiores nam vero.</p>
@@ -100,9 +90,9 @@
 
     <div class="cards-top">
       <!-- Cards Top -->
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="card">
+      <div class="row justify-content-center">
+        <div class="col-sm-3 ">
+          <div class="card ">
             <div class="card-body">
               <h5 class="card-title">Resource 1</h5>
               <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing 
@@ -112,7 +102,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Resource 2</h5>
@@ -123,7 +113,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Resource 3</h5>
@@ -139,8 +129,8 @@
     </div>
     <div class="cards-bottom">
       <!-- Cards Bottom -->
-      <div class="row">
-        <div class="col-sm-4">
+      <div class="row justify-content-center">
+        <div class="col-sm-3">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Resource 1</h5>
@@ -151,21 +141,10 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Resource 2</h5>
-              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing 
-                elit. Inventore,suscipit libero? Aliquam architecto eaque accusamus animi 
-                id totam</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Resource 3</h5>
               <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing 
                 elit. Inventore,suscipit libero? Aliquam architecto eaque accusamus animi 
                 id totam</p>
