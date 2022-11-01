@@ -9,15 +9,34 @@
 }
 
 body{
-    background-color: 	#ff9b70;
-    padding-top: 8%;
+    background-color: #2d3047;
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 1%;
 }
 
+.table-kid{
+    background-color: #00a86c;
+}
+
+.table-adult{
+    background-color: #ff9b70;
+}
+
+.table-learn{
+    background-color: #fffd82;
+}
+
+.table-resources{
+    background-color: #e84855;
+}
+
 h1, h2, h3, h4{
     text-align: center;
+}
+
+h1{
+    color: white;
 }
 
 .chart-text{
@@ -46,6 +65,7 @@ table {
 
 .cards-top{
     padding-top: 2%;
+    
 }
 
 footer{
@@ -53,3 +73,4 @@ footer{
     color: 	#ff9b70;
     text-align: center;
 }
+
