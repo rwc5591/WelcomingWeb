@@ -1,41 +1,64 @@
-import React from 'react'
+import React, {useState}from 'react'
 import './adults.css'
 import {Resources} from '../../containers'
+import Button from 'react-bootstrap/Button';
+import Carousel from 'react-bootstrap/Carousel';
+
 
 const Adults = () => {
   return (
-    <><div className='Adults' id='Adults'>
-      <body>Adults works!
-        This is the adults page! We'll have an educational game here and add more parts if we have time.
-      </body>
-      <Resources />
-    </div><div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-        <ol className="carousel-indicators">
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to={0} className="active" />
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to={1} />
-          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to={2} />
-        </ol>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img className="d-block w-100" src="ImagePlaceholder.png" alt="First slide" />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src="ImagePlaceholder2.png" alt="Second slide" />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src="ImagePlaceholder.png" alt="Third slide" />
-          </div>
-        </div>
-        <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true" />
-          <span className="sr-only">Previous</span>
-        </a>
-        <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true" />
-          <span className="sr-only">Next</span>
-        </a>
-      </div></>
+    ImportantInfoCarousel()
   )
+}
+
+function ImportantInfoCarousel(){
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  }
+
+  return(
+    <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="ImagePlaceholder.png"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="ImagePlaceholder.png"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="ImagePlaceholder.png"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
 }
 
 export default Adults
