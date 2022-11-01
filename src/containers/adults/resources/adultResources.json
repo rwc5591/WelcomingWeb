@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "name": "ConnectSafely" ,
+        "desc": "Put description here ",
+        "url" :"https://www.connectsafely.org/"
+    },
+    {
+        "id":2,
+        "name": "Accessible Learning Labs" ,
+        "desc": "Description 2",
+        "url" :"https://all.rit.edu/"
+    },
+    {
+        "id":3,
+        "name": "Internet 101" ,
+        "desc": "description 3",
+        "url" :"https://www.lifewire.com/internet-101-beginners-quick-reference-guide-2483357"
+    }
+
+]

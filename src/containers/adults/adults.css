@@ -1,1 +1,6 @@
-
+@media (max-height: 300px){
+.carousel {
+    width: auto;
+    height: auto;
+}
+}

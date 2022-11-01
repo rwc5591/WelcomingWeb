@@ -3,7 +3,11 @@ import './adults.css'
 import {Resources} from '../../containers'
 import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
-
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import adultResources from './resources/adultResources.json';
+import { Card } from 'react-bootstrap';
 
 const Adults = () => {
   return (
@@ -18,14 +22,34 @@ function ImportantInfoCarousel(){
     setIndex(selectedIndex);
   }
 
+  const resources= adultResources.map((resources) => {
+    return(
+      <Card key ={adultResources.id}>
+        <Card.Body>
+        <Card.Title>{adultResources.name}</Card.Title>
+        <Card.Text>{adultResources.desc}</Card.Text>
+        <a className="btn-primary"
+        href={adultResources.url}
+        target="_blank"
+        rel="noopener noreferrer">
+          Go to Website
+        </a>
+        </Card.Body>
+      </Card>
+    );
+    }
+  )
+
+
   return(
+    <div>
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
+        <img 
+          width={900} height={500}
+          className= "d-block w-100"
           src="ImagePlaceholder.png"
-          alt="First slide"
-        />
+          alt="First slide" />
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -33,6 +57,7 @@ function ImportantInfoCarousel(){
       </Carousel.Item>
       <Carousel.Item>
         <img
+        width={900} height={500}
           className="d-block w-100"
           src="ImagePlaceholder.png"
           alt="Second slide"
@@ -45,6 +70,7 @@ function ImportantInfoCarousel(){
       </Carousel.Item>
       <Carousel.Item>
         <img
+        width={900} height={500}
           className="d-block w-100"
           src="ImagePlaceholder.png"
           alt="Third slide"
@@ -58,7 +84,20 @@ function ImportantInfoCarousel(){
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    <Container>
+      <Row>
+        <Col>
+        <h2> Welcome to the Web! </h2>
+        <p> Here's what you need to know...</p></Col>
+        <Col><h2>Resources</h2>
+        <div> {resources} </div>
+        </Col>
+
+      </Row>
+    </Container>
+    </div>
   );
 }
+
 
 export default Adults
