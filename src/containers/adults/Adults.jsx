@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import adultResources from './resources/adultResources.json';
-import { Card } from 'react-bootstrap';
+import Card from 'react-bootstrap/Card';
 
 const Adults = () => {
   return (
@@ -24,14 +24,12 @@ function ImportantInfoCarousel(){
 
   const resources= adultResources.map((resources) => {
     return(
-      <Card key ={adultResources.id}>
+      <Card key ={resources.id}>
         <Card.Body>
-        <Card.Title>{adultResources.name}</Card.Title>
-        <Card.Text>{adultResources.desc}</Card.Text>
+        <Card.Title>{resources.name}</Card.Title>
+        <Card.Text>{resources.desc}</Card.Text>
         <a className="btn-primary"
-        href={adultResources.url}
-        target="_blank"
-        rel="noopener noreferrer">
+        href={resources.url}>
           Go to Website
         </a>
         </Card.Body>
