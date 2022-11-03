@@ -5,7 +5,7 @@ import { RiMenu3Line, RiClosedLin} from 'react-icons/ri'
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <img src="../../../public/web.png" alt="side image of a spider web"/> 
+      <img alt="side image of a spider web" src="../../public/web.png"/> 
       <div className='navbarlinks'>
         <div className='navbarlinksLogo'>
           <h1>WelcomingWeb</h1>
