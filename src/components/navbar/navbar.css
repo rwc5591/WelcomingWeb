@@ -5,6 +5,10 @@
     background: white;
 }
 
+.web{
+    size: 20%;
+}
+
 .navbarlinks{
     display: flex;
     justify-content: center;
