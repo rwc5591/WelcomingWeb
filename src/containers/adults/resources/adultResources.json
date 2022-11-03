@@ -2,19 +2,19 @@
     {
         "id":1,
         "name": "ConnectSafely" ,
-        "desc": "Put description here ",
+        "desc": "A great website about internet safety ",
         "url" :"https://www.connectsafely.org/"
     },
     {
         "id":2,
         "name": "Accessible Learning Labs" ,
-        "desc": "Description 2",
+        "desc": "Learn about making accessible websites",
         "url" :"https://all.rit.edu/"
     },
     {
         "id":3,
         "name": "Internet 101" ,
-        "desc": "description 3",
+        "desc": "New to the internet? This is for you.",
         "url" :"https://www.lifewire.com/internet-101-beginners-quick-reference-guide-2483357"
     }
 
