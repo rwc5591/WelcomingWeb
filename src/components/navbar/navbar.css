@@ -20,13 +20,13 @@
 }
 .navbarlinkscontainer p,
 .navbarlinksmenucontainer p{
-color: rgb(255, 255, 255);
-font-size: var(--font-family);
-font-weight: 500;
-font-size: 18px;
-line-height: 30px;
-text-transform: capitalize;
-margin: 0 1rem;
-display: inline;
-cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    display: inline;
+    cursor: pointer;
 }

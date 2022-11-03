@@ -6,3 +6,21 @@
     width: 100%;
     margin: 0;
 }
+
+body{
+    background-color: #2d3047;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+h1, h2, h3, h4{
+    text-align: center;
+    color: white;
+}
+
+footer{
+    background-color: #2d3074;
+    color: 	white;
+    text-align: center;
+}
