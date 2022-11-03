@@ -85,7 +85,8 @@ function ImportantInfoCarousel(){
       <Row>
         <Col>
         <h2> Welcome to the Web! </h2>
-        <p> Here's what you need to know...</p></Col>
+        <p> No matter your age, it's always a good practice to learn about the internet! 
+          If you're a beginner, why not check out some of our resources? Or play our new GoPhish game?</p></Col>
         <Col><h2>Resources</h2>
         <div> {resources} </div>
         </Col>

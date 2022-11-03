@@ -8,6 +8,7 @@ const Question = () => {
   return (
     <div>
       <div className="question">{currentQuestion.question}</div>
+      <img src ={currentQuestion.image}></img>
       <div className="answers">
         {quizState.answers.map((answer, index) => (
           <Answer
