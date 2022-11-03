@@ -14,48 +14,155 @@
     <link rel="stylesheet" href="home.css">
   </head>
 
-  <header>
+  <body>
+    <!--Logo-->
+    <h1>Welcoming Web</h1>
+
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-scroll">
-      <a class="navbar-brand" href="#">Welcoming Web</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-md navbar-light bg-light mb-4 nav-justified">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <div class="collapse navbar-collapse nav justify-content-center" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Adults</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Kids</a>
+              <a class="nav-link" href="#">Kids</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Adults</a>
+              <a class="nav-link" href="#">Learning</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Resources
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
             </li>
           </ul>
         </div>
+      </div>
     </nav>
     <!-- NavBar -->
-  </header>
+  </body>
+  
+
 
   <body>
-    
+    <div>
+      <!-- Clickable Table -->
+      <table>
+        <tr>
+          <td class="table-kid">
+            <h3>I am a kid</h3>
+            <p class="chart-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, 
+              suscipit libero? Aliquam architecto eaque accusamus animi id totam, 
+              necessitatibus dolor eos aut commodi eum facilis debitis cupiditate 
+              asperiores nam vero.</p>
+          </td>
+          <td class="table-adult">
+            <h3>I am an adult</h3>
+            <p class="chart-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, 
+              suscipit libero? Aliquam architecto eaque accusamus animi id totam, 
+              necessitatibus dolor eos aut commodi eum facilis debitis cupiditate 
+              asperiores nam vero.</p>
+          </td>
+          <td class="table-learn">
+            <h3>I want to learn more</h3>
+            <p class="chart-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, 
+              suscipit libero? Aliquam architecto eaque accusamus animi id totam, 
+              necessitatibus dolor eos aut commodi eum facilis debitis cupiditate 
+              asperiores nam vero.</p>
+          </td>
+          <td class="table-resources">
+            <h3>I want to see more resources</h3>
+            <p class="chart-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, 
+              suscipit libero? Aliquam architecto eaque accusamus animi id totam, 
+              necessitatibus dolor eos aut commodi eum facilis debitis cupiditate 
+              asperiores nam vero.</p>
+          </td>
+        </tr>
+      </table>
+      <!-- Clickable Table -->
+    </div>
+
+    <div class="cards-top">
+      <!-- Cards Top -->
+      <div class="row justify-content-center">
+        <div class="col-sm-3 ">
+          <div class="card ">
+            <div class="card-body">
+              <h5 class="card-title">Resource 1</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing 
+                elit. Inventore,suscipit libero? Aliquam architecto eaque accusamus animi 
+                id totam</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Resource 2</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing 
+                elit. Inventore,suscipit libero? Aliquam architecto eaque accusamus animi 
+                id totam</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Resource 3</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing 
+                elit. Inventore,suscipit libero? Aliquam architecto eaque accusamus animi 
+                id totam</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cards Top-->
+    </div>
+    <div class="cards-bottom">
+      <!-- Cards Bottom -->
+      <div class="row justify-content-center">
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Resource 1</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing 
+                elit. Inventore,suscipit libero? Aliquam architecto eaque accusamus animi 
+                id totam</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Resource 2</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing 
+                elit. Inventore,suscipit libero? Aliquam architecto eaque accusamus animi 
+                id totam</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cards Bottom-->
+    </div>
   </body>
+
+  <footer>
+    <p class="footer-text">Authors: Jade C., Reg C., Flynn D., Harry G.</p>
+    <a href="mailto:ContactUs@WelcomingWeb.com"> ContactUs@WelcomingWeb.com</a>
+  </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </html>
+</html>

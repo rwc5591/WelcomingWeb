@@ -1,8 +1,9 @@
-.About{
-    color:black;
-    display: flex;
-    justify-content: flex-start;
-    border: 3px solid black;
-    width: 100%;
-    margin: 0;
+.col{
+    background: white;
+    border-radius: 2em;
+    margin: 1em;
+}
+
+.Intro{
+    background: white;
 }
