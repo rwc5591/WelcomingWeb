@@ -43,14 +43,13 @@ function ImportantInfoCarousel(){
     <div>
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <img 
-          width={900} height={500}
+        <img width={900} height={500}
           className= "d-block w-100"
-          src="ImagePlaceholder.png"
+          src="goPhish.jpg"
           alt="First slide" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Go Phish!</h3>
+          <p>Can you tell which one is a scam? <a href='/GoPhish'>Click here to play</a></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -86,7 +85,8 @@ function ImportantInfoCarousel(){
       <Row>
         <Col>
         <h2> Welcome to the Web! </h2>
-        <p> Here's what you need to know...</p></Col>
+        <p> No matter your age, it's always a good practice to learn about the internet! 
+          If you're a beginner, why not check out some of our resources? Or play our new GoPhish game?</p></Col>
         <Col><h2>Resources</h2>
         <div> {resources} </div>
         </Col>

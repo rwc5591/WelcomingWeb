@@ -2,17 +2,25 @@
     display: flex;
     padding: 2rem 2rem;
     text-align: center;
-    background-color: var(--color-bg);
+    background: white;
+}
+
+.web{
+    size: 20%;
 }
 
 .navbarlinks{
     display: flex;
     justify-content: center;
-    background-color: var(--color-bg);
+    background: white;
 }
 .navbarlinksLogo{
+    color: black;
     letter-spacing: 5px;
     font-family: monospace;
+}
+.navbarlinksLogo h1{
+    color: black;
 }
 
 .navbarlinkscontainer{
