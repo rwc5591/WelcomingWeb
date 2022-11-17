@@ -8,7 +8,8 @@ const Resources = () => {
     <br></br>
         <h3>Helpful Links</h3>   <br />         
         <a href='https://www.connectsafely.org/medialiteracy/'>Connect Safely</a><br />
-        <a href="https://applieddigitalskills.withgoogle.com/c/en/artandgames">Applied Digital Skills</a> <br />
+            <a href="https://applieddigitalskills.withgoogle.com/c/en/artandgames">Applied Digital Skills</a> <br />
+            
     </div>
     )
 }
