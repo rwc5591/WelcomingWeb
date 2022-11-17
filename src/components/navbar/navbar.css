@@ -5,6 +5,13 @@
     background: white;
 }
 
+.web{
+    width: 20%;
+    position: absolute;
+    left: 80%;
+    top: 1%;
+}
+
 .navbarlinks{
     display: flex;
     justify-content: center;
@@ -24,13 +31,13 @@
 }
 .navbarlinkscontainer p,
 .navbarlinksmenucontainer p{
-color: black;
-font-size: var(--font-family);
-font-weight: 500;
-font-size: 18px;
-line-height: 30px;
-text-transform: capitalize;
-margin: 0 1rem;
-display: inline;
-cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    display: inline;
+    cursor: pointer;
 }
