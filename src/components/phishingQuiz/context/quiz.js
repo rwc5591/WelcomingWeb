@@ -5,6 +5,16 @@ const initialState = {
   questions,
   currentQuestionIndex: 0,
   showResults: false,
+  isBeginning: true,
+  correctAnswerCount: 0,
+  answers: shuffleAnswers(questions[0]),
+  currentAnswer: "",
+};
+const beginState = {
+  questions,
+  currentQuestionIndex: 0,
+  showResults: false,
+  isBeginning: false,
   correctAnswerCount: 0,
   answers: shuffleAnswers(questions[0]),
   currentAnswer: "",
@@ -43,6 +53,8 @@ const reducer = (state, action) => {
     }
     case "RESTART": {
       return initialState;
+    } case "START": {
+      return beginState;
     }
     default:
       return state;

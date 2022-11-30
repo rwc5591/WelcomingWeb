@@ -8,6 +8,7 @@ import {
   About,
   Kids,
   Adults,
+  Learning,
   Resources,
   Scam,
 } from "./containers";
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="About" element={<About />} />
           <Route path="Kids" element={<Kids />} />
           <Route path="Adults" element={<Adults />} />
+          <Route path="Learning" element={<Learning />} />
           <Route path="Scam" element={<Scam />} />
           <Route path="Resources" element={<Resources />} />
           <Route path="GoPhish" element={<Quiz />} />
