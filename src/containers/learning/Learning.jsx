@@ -42,7 +42,7 @@ function ImportantInfoCarousel(){
   return(
     <div>
     <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <img width={900} height={500}
           className= "d-block w-100"
           src="goPhish.jpg"
@@ -51,8 +51,8 @@ function ImportantInfoCarousel(){
           <h3>Go Phish!</h3>
           <p>Can you tell which one is a scam? <a href='/GoPhish'>Click here to play</a></p>
         </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
+      </Carousel.Item> */}
+      {/* <Carousel.Item>
         <img
         width={900} height={500}
           className="d-block w-100"
@@ -64,8 +64,8 @@ function ImportantInfoCarousel(){
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
+      </Carousel.Item> */}
+      {/* <Carousel.Item>
         <img
         width={900} height={500}
           className="d-block w-100"
@@ -79,14 +79,20 @@ function ImportantInfoCarousel(){
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
     <Container>
       <Row>
         <Col>
         <h2> Welcome to the Web! </h2>
         <p> No matter your age, it's always a good practice to learn about the internet! 
-          If you're a beginner, why not check out some of our resources? Or play our new GoPhish game?</p></Col>
+          If you're a beginner, why not check out some of our resources? Or play our new <a href='/GoPhish'>GO PHISH!</a> game?</p>
+            <br />
+            <br />
+            <h3><a href='/GoPhish'>Go Phish!</a></h3>
+            <img width={200} height={200} 
+           src="goPhish.jpg"  />
+          </Col>
         <Col><h2>Resources</h2>
         <div> {resources} </div>
         </Col>

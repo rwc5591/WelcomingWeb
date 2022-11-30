@@ -41,7 +41,7 @@ function ImportantInfoCarousel(){
     <div>
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <img width={900} height={500}
+        <img width={200} height={300}
           className= "d-block w-100"
           src="goPhish.jpg"
           alt="First slide" />

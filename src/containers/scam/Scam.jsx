@@ -42,7 +42,7 @@ function ImportantInfoCarousel(){
     <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           
-        <img width={900} height={500}
+        <img width={200} height={400}
             className="d-block w-100"
           src="goPhish.jpg"
             alt="First slide" />
@@ -53,7 +53,7 @@ function ImportantInfoCarousel(){
       </Carousel.Item>
       {/* <Carousel.Item>
         <img
-        width={900} height={500}
+        width={200} height={300}
           className="d-block w-100"
           src="ImagePlaceholder.png"
           alt="Second slide"
@@ -66,7 +66,7 @@ function ImportantInfoCarousel(){
       </Carousel.Item>
       <Carousel.Item>
         <img
-        width={900} height={500}
+        width={200} height={300}
           className="d-block w-100"
           src="ImagePlaceholder.png"
           alt="Third slide"
@@ -108,9 +108,19 @@ function ImportantInfoCarousel(){
                 
 
               </ul></p></Col>
-        {/* <Col><h2>Resources</h2>
-        <div> {resources} </div>
-        </Col> */}
+          <Col>
+            <h2>Test Your Knowlegde</h2>
+            <h4><a href='/GoPhish'>Play</a></h4>
+            
+            <div>
+            <h3><a href='/GoPhish'>Go Phish!</a></h3>
+            <img width={200} height={200} 
+           src="goPhish.jpg"  />
+
+
+
+            </div>
+        </Col>
 
       </Row>
     </Container>
