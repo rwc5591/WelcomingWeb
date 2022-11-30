@@ -9,7 +9,6 @@ import resourcesData from './resourcesData.json';
 import Card from 'react-bootstrap/Card';
 
 const Resources = () => {
-<<<<<<< HEAD
     return (
     <div className='Resources' id='Resources'>
     <h2>Resources</h2>
@@ -17,15 +16,10 @@ const Resources = () => {
         <h3>Helpful Links</h3>   <br />         
         <a href='https://www.connectsafely.org/medialiteracy/'>Connect Safely</a><br />
             <a href="https://applieddigitalskills.withgoogle.com/c/en/artandgames">Applied Digital Skills</a> <br />
-            <a href=" https://owl.purdue.edu/owl/job_search_writing/">Job Application Resources</a> <br />
+          
             
     </div>
     )
-=======
-  return (
-    ImportantInfoCarousel()
-  )
->>>>>>> fc356df08b16ded3d87724cccd55c6fca8baf47b
 }
 
 function ImportantInfoCarousel(){

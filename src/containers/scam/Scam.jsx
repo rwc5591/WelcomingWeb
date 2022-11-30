@@ -40,17 +40,18 @@ function ImportantInfoCarousel(){
   return(
     <div>
     <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
+        <Carousel.Item>
+          
         <img width={900} height={500}
-          className= "d-block w-100"
+            className="d-block w-100"
           src="goPhish.jpg"
-          alt="First slide" />
+            alt="First slide" />
         <Carousel.Caption>
-          <h3>Go Phish!</h3>
+          <h3 > <a href='/GoPhish'>Go Phish!</a></h3>
           <p>Can you tell which one is a scam? <a href='/GoPhish'>Click here to play</a></p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <img
         width={900} height={500}
           className="d-block w-100"
@@ -77,7 +78,7 @@ function ImportantInfoCarousel(){
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
     <Container>
       <Row>

@@ -48,7 +48,7 @@ function ImportantInfoCarousel(){
           src="goPhish.jpg"
           alt="First slide" />
         <Carousel.Caption>
-          <h3>Go Phish!</h3>
+          <h3><a href='/GoPhish'>Go Phish!</a></h3>
           <p>Can you tell which one is a scam? <a href='/GoPhish'>Click here to play</a></p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -56,27 +56,27 @@ function ImportantInfoCarousel(){
         <img
         width={900} height={500}
           className="d-block w-100"
-          src="ImagePlaceholder.png"
+          src="learnabot.png"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Learn about accessibility</h3>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
         width={900} height={500}
           className="d-block w-100"
-          src="ImagePlaceholder.png"
+          src="ludovic-toinel-nGwyaWKFRVI-unsplash.jpg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Connect Safely</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+           
           </p>
         </Carousel.Caption>
       </Carousel.Item>
