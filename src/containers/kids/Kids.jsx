@@ -52,29 +52,29 @@ function ImportantInfoCarousel(){
       </Carousel.Item>
       <Carousel.Item>
         <img
-        width={900} height={500}
+        width={400} height={500}
           className="d-block w-100"
-          src="ImagePlaceholder.png"
+          src="National Geo.png"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>National Geographic</h3>
+          <p>Learn and play games</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-        width={900} height={500}
+        width={300} height={500}
           className="d-block w-100"
-          src="ImagePlaceholder.png"
+          src="florian-olivo-4hbJ-eymZ1o-unsplash.jpg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Learn to code</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Coding for beginners.
           </p>
         </Carousel.Caption>
       </Carousel.Item>

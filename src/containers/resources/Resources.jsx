@@ -9,6 +9,7 @@ const Resources = () => {
         <h3>Helpful Links</h3>   <br />         
         <a href='https://www.connectsafely.org/medialiteracy/'>Connect Safely</a><br />
             <a href="https://applieddigitalskills.withgoogle.com/c/en/artandgames">Applied Digital Skills</a> <br />
+            <a href=" https://owl.purdue.edu/owl/job_search_writing/">Job Application Resources</a> <br />
             
     </div>
     )
