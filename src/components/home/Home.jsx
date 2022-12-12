@@ -1,15 +1,24 @@
-import React from 'react'
 import './home.css'
-import { Resources } from '../../containers';
+import CardGroupHome from './CardGroupHome';
+import { useState } from 'react';
+import ResourceList from './ResourceList';
 
-export default function Home(){
-    return (
-        <div className='Home' id='Home'>
-            <body>Home works!
-            Welcome to Welcoming Web! If you're reading this, this is our first submission so far. This is a basic template of the website.
-            <p> This is where we will have our info about our mission and how to navigate this website. </p>
-            </body>
-            <Resources />
+const Home = () => {
+    const[resources, setResources] = useState([
+        { title: 'Card 1', body: 'lorem ipsum', url: 'null', id:1},
+        { title: 'Card 2', body: 'lorem ipsum', url: 'null', id:2},
+        { title: 'Card 3', body: 'lorem ipsum', url: 'null', id:3},
+        { title: 'Card 4', body: 'lorem ipsum', url: 'null', id:4},
+        { title: 'Card 5', body: 'lorem ipsum', url: 'null', id:5},
+    ]);
+
+    return(
+        <div className="Content">
+            <h1> Welcome to the Welcoming Web</h1>
+            <CardGroupHome />
+            <ResourceList resources={resources}/>
         </div>
-    )
+    );
 }
+
+export default Home

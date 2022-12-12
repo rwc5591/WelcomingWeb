@@ -8,6 +8,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import adultResources from './resources/adultResources.json';
 import Card from 'react-bootstrap/Card';
+import Quiz from '../../components/phishingQuiz/Quiz';
 
 const Adults = () => {
   return (
@@ -43,40 +44,40 @@ function ImportantInfoCarousel(){
     <div>
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <img width={900} height={500}
+        <img width={200} height={400}
           className= "d-block w-100"
           src="goPhish.jpg"
           alt="First slide" />
         <Carousel.Caption>
-          <h3>Go Phish!</h3>
+          <h3><a href='/GoPhish'>Go Phish!</a></h3>
           <p>Can you tell which one is a scam? <a href='/GoPhish'>Click here to play</a></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-        width={900} height={500}
+        width={200} height={400}
           className="d-block w-100"
-          src="ImagePlaceholder.png"
+            src="learnabot.png"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3><a href="https://all.rit.edu/">Learn about accessibility</a></h3>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-        width={900} height={500}
+        width={200} height={400}
           className="d-block w-100"
-          src="ImagePlaceholder.png"
+          src="ludovic-toinel-nGwyaWKFRVI-unsplash.jpg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+        <h3><a href="https://www.connectsafely.org/">Connect Safely</a></h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+           
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -86,11 +87,20 @@ function ImportantInfoCarousel(){
         <Col>
         <h2> Welcome to the Web! </h2>
         <p> No matter your age, it's always a good practice to learn about the internet! 
-          If you're a beginner, why not check out some of our resources? Or play our new GoPhish game?</p></Col>
+              If you're a beginner, why not check out some of our resources? Or play our new <a href='/GoPhish'>GO PHISH!</a> game?</p>
+            <br />
+            <br />
+            <h3><a href='/GoPhish'>Go Phish!</a></h3>
+            <img width={200} height={300} 
+           src="goPhish.jpg"  />
+          
+            
+             
+          
+          </Col>
         <Col><h2>Resources</h2>
         <div> {resources} </div>
         </Col>
-
       </Row>
     </Container>
     </div>

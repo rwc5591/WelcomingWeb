@@ -16,6 +16,32 @@
         "name": "Accessible Learning Labs" ,
         "desc": "Learn about making accessible websites",
         "url" :"https://all.rit.edu/"
+    
+    },
+    {
+        "id":4,
+        "name": "Job Search" ,
+        "desc": "Job Search Resources",
+        "url" :"https://owl.purdue.edu/owl/job_search_writing/"
+    },
+    {
+        "id":5,
+        "name": "Assistive Technology" ,
+        "desc": "Blogs and Websites about Assistive Technology",
+        "url" :"https://blog.feedspot.com/disability_blogs/"
+    },
+    {
+        "id":6,
+        "name": "Internet safety" ,
+        "desc": "Learn How to use the internet",
+        "url" :"https://askatechteacher.com/internet-skills/"
+    },
+    {
+        "id":7,
+        "name": "Ability and Beyond" ,
+        "desc": "Programs and services for people with Disabilities",
+        "url" :"https://abilitybeyond.org/who-we-are/about-us/"
     }
+
 
 ]

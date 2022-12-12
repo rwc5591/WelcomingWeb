@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "name": "National Geographic" ,
+        "desc": "Learn about animals!",
+        "url" :"https://kids.nationalgeographic.com/"
+    },
+    {
+        "id":3,
+        "name": "Ted Talks for kids!" ,
+        "desc": "Watch and learn",
+        "url" :"https://www.ted.com/playlists/86/talks_to_watch_with_kids"
+    },
+    {
+        "id":2,
+        "name": "Code.org" ,
+        "desc": "Learn how to code!",
+        "url" :"https://code.org/"
+    }
+
+]
