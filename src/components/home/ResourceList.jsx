@@ -7,7 +7,7 @@ const ResourceList = (props) => {
                 <div className="resource-preview" key={ resource.id}>
                     <h2>{ resource.title }</h2>
                     <p>{resource.body}</p>
-                    <a href= { resource.url } > <button type="button"> Visit Here </button> </a> 
+                    <a href= { resource.url } > <button className="resourcePreviewButton" type="button"> Visit Here </button> </a> 
                 </div>
             ))}
         </div>

@@ -1,63 +1,53 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Button from 'react-bootstrap/Button';
+import './home.css';
 
 function CardGroupHome() {
     return (
     <CardGroup>
-        <Card bg="success "border="success" style={{ width: '30rem' }}>
+        <Card className="kidCard" style={{ width: '30rem' }}>
             <Card.Body>
             <Card.Title>For Kids</Card.Title>
             <Card.Text>
-                The kid site should be something easily accessible with attractive colors,
-                flashy text, or images to get their attention. Ideally the interactive game
-                or other resource is a more applicable to them such as how to stay safe online,
-                who to avoid, or other things that kids might need to know.
+                Welcoming Web for Kids has resources that are fun, educational, and safe to explore! 
             </Card.Text>
             </Card.Body>
             <Card.Footer>
-                <Button href="/kids">Kids Page</Button>
+                <Button className="shadowButton" href="/kids">Go to Kids Page</Button>
             </Card.Footer>
         </Card>
-        <Card bg="warning" border="warning" style={{ width: '30rem' }}>
+        <Card className="adultCard" style={{ width: '30rem' }}>
             <Card.Body>
             <Card.Title>For Adults</Card.Title>
             <Card.Text>
-                The adults site should still be engaging but presented more formally than the
-                one intended for kids. On one end it has to look age appropraiate as to not 
-                "look down on them", but it also has to easy enough the the average boomer
-                can figure it out.{' '}
+                Welcoming Web for Adults has resources that are educational and will solve all your quesitons about the internet today.
             </Card.Text>
             </Card.Body>
             <Card.Footer>
-                <Button href="/adults">Adults Page</Button>
+                <Button className="shadowButton" href="/adults">Go to Adults Page</Button>
             </Card.Footer>
         </Card>
-        <Card bg="info" border="info" style={{ width: '30rem' }}>
+        <Card className="learnCard" style={{ width: '30rem' }}>
             <Card.Body>
             <Card.Title>Learn More</Card.Title>
             <Card.Text>
-                We might wanna clarify what is going on in here because idk if its learning
-                more about the website or if we learning more about how to use the internet.
-                If its the first option then we might wanna remove this option and just keep
-                it solely in the navbar.
+                This page is all about learning things to share. How to set up websites, etc etc.
             </Card.Text>
             </Card.Body>
             <Card.Footer>
-                <Button href="/learning">Learn More Page</Button> 
+                <Button className="shadowButton" href="/learning">Go to Learn More Page</Button> 
             </Card.Footer>
         </Card>
-        <Card bg="danger" border="danger" style={{ width: '30rem' }}>
+        <Card className="resourcesCard" style={{ width: '30rem' }}>
             <Card.Body>
             <Card.Title>Resources</Card.Title>
             <Card.Text>
-                The resources site will probably be easiest to make, the only annoying part is
-                probably trying to find content to populate it with. Should this page looj more
-                like an index in a book or will it just be floating cards like the ones below?{' '}
+                Are you on a similar mission? The resources page is filled with educational websites similar to ours. Go to this website if you want to explore!
             </Card.Text>
             </Card.Body>
             <Card.Footer>
-                <Button href="/resources">Resources Page</Button>
+                <Button className="shadowButton" href="/resources">Go to Resources Page</Button>
             </Card.Footer>
         </Card>
     </CardGroup>

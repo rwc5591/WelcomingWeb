@@ -11,4 +11,8 @@
   --color-blog: #042c54;
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
+  --color-kid: rgb(0, 168, 108);
+  --color-adult: rgb(255, 253, 130);
+  --color-learn: rgb(255, 155, 113);
+  --color-resources: rgb(232, 72, 85);
 }

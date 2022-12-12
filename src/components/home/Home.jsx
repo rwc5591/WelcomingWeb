@@ -14,7 +14,7 @@ const Home = () => {
 
     return(
         <div className="Content">
-            <h1> Welcome to the Welcoming Web</h1>
+            <h1> Welcome to Welcoming Web!</h1>
             <CardGroupHome />
             <ResourceList resources={resources}/>
         </div>
