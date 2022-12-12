@@ -38,7 +38,7 @@ function ImportantInfoCarousel(){
 
   return(
     <div>
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel activeIndex={index} onSelect={handleSelect} className="carouselTest">
       {/* <Carousel.Item>
         <img width={200} height={300}
           className= "d-block w-100"
@@ -78,17 +78,16 @@ function ImportantInfoCarousel(){
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    <Container>
-      <Row>
-        <Col>
+    <Container >
+      <Row >
+        <Col className="phishContainer">
         <h2> Welcome to the Web! </h2>
         <p> No matter your age, it's always a good practice to learn about the internet! 
           If you're a beginner, why not check out some of our resources? Or play our new <a href='/GoPhish'>GO PHISH!</a> game?</p>
-            <br />
-            <br />
             <h3><a href='/GoPhish'>Go Phish!</a></h3>
             <img width={200} height={300} 
-           src="goPhish.jpg"  />
+           src="goPhish.jpg"
+           alt="phishing text"  />
           </Col>
         <Col><h2>Resources</h2>
         <div> {resources} </div>

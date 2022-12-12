@@ -29,6 +29,7 @@
 
 .navbarlinkscontainer{
     flex-direction: row;
+    margin-right:14%;
 }
 .navbarlinkscontainer p,
 .navbarlinksmenucontainer p{
