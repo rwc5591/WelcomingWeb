@@ -89,8 +89,8 @@ function ImportantInfoCarousel(){
            src="goPhish.jpg"
            alt="phishing text"  />
           </Col>
-        <Col><h2>Resources</h2>
-        <div> {resources} </div>
+        <Col className="phishCont"><h2>Resources</h2>
+        <div className="cardBox"> {resources} </div>
         </Col>
 
       </Row>

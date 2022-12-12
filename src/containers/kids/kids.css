@@ -7,6 +7,10 @@
         margin: auto 0%;
         padding: 0rem;
     }
+
+    .carousel img{
+        left: 1%;
+    }
     }
     .carousel-caption {
         background: rgba(128,128,128, 0.5);
@@ -14,7 +18,7 @@
     }
     
     .col{
-        background: white;
+        background: black;
         border-radius: 2rem;
         margin: 1rem;
     } 
@@ -23,7 +27,7 @@
     }
 
     .carouselTest{
-        width:90%;
+        width:100%;
         margin: 0%;
     }
 
@@ -38,7 +42,24 @@
     }
 
     .phishContainer img{
-        width: 83%;
+        width: 89%;
         height: 50%;
-        margin-left: 9%;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+
+    .cardBox{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+    .card-body{
+        display: flex;
+        padding: 0.2rem;
+        margin: 1rem;
+    }
+
+    .card{
+        margin: 1rem;
     }

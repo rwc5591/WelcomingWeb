@@ -11,8 +11,9 @@
     }
     
     .col{
-        background: white;
-        border-radius: 2em;
-        margin: 1em;
+        background: black;
+        border-radius: 2rem;
+        padding: 2rem;
+        margin: 0.9rem;
     }
     
