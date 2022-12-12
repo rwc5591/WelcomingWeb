@@ -5,6 +5,7 @@
     border: 3px solid black;
     width: 95%;
     margin: 1%;
+    color: white;
 }
 
 body{
@@ -13,31 +14,76 @@ body{
 
 h1, h2, h3, h4, p{
     text-align: center;
-    color: white;
+}
+.Content h1{
+    color:white;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
 }
 
+.card-title{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 900;
+}
+.card-text{
+    font-weight: 700;
+}
+.kidCard{
+    background-color: var(--color-kid) !important;
+}
+
+.adultCard{
+    background-color: var(--color-adult) !important;
+}
+.learnCard{
+    background-color:var(--color-learn) !important;
+
+}
+.resourcesCard{
+    background-color:var(--color-resources) !important;
+
+}
+.CardGroup{
+    padding-bottom: 0.5%;
+}
+
+.shadowButton{
+    background: rgba(128,128,128, 0.5);
+    border-color:rgba(128,128,128, 0.7)
+}
+.shadowButton:hover{
+    background: rgb(45,48,71);
+}
 .resource-list{
+    padding-top: 0.5%;
     display: flex;
-    margin-right: auto;
+    margin-right:auto;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .resource-preview{
+    background-color: white;
     border-radius: 8px;
-    position: relative;
     padding: 10px 16px;
     margin: 10px auto;
     border: 1px solid #fafafa;
     max-width: 500px;
+}
 
+.resourcePreviewButton:hover{
+    background: rgb(45,48,71);
+}
+
+.resourcePreviewButton{
+    background: rgba(128,128,128, 0.5);
 }
 
 .resource-preview:hover{
     box-shadow: 0px 4px 8px 0px rgb(255, 255, 255);
     transition: 0.3s;
 }
-
 button{
     background-color: white;
     border-radius: 6px;

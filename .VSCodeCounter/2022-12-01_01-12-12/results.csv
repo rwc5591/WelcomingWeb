@@ -1,0 +1,51 @@
+"filename", "language", "CSS", "JavaScript", "JSON", "HTML", "JavaScript React", "comment", "blank", "total"
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\index.html", "HTML", 0, 0, 0, 15, 0, 0, 1, 16
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\package-lock.json", "JSON", 0, 0, 29129, 0, 0, 0, 1, 29130
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\package.json", "JSON", 0, 0, 44, 0, 0, 0, 1, 45
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\public\index.html", "HTML", 0, 0, 0, 20, 0, 0, 4, 24
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\public\manifest.json", "JSON", 0, 0, 25, 0, 0, 0, 1, 26
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\App.css", "CSS", 70, 0, 0, 0, 0, 0, 9, 79
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\App.js", "JavaScript", 0, 43, 0, 0, 0, 2, 6, 51
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\home\CardGroupHome.jsx", "JavaScript React", 0, 0, 0, 0, 66, 0, 3, 69
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\home\Home.jsx", "JavaScript React", 0, 0, 0, 0, 21, 0, 3, 24
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\home\ResourceList.jsx", "JavaScript React", 0, 0, 0, 0, 15, 0, 2, 17
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\home\home.css", "CSS", 41, 0, 0, 0, 0, 0, 8, 49
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\home\home.html", "HTML", 0, 0, 0, 147, 0, 13, 9, 169
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\index.js", "JavaScript", 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\navbar\Navbar.jsx", "JavaScript React", 0, 0, 0, 0, 24, 1, 3, 28
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\navbar\navbar.css", "CSS", 40, 0, 0, 0, 0, 0, 3, 43
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\phishingQuiz\Answer.js", "JavaScript", 0, 25, 0, 0, 0, 0, 1, 26
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\phishingQuiz\Question.js", "JavaScript", 0, 28, 0, 0, 0, 0, 2, 30
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\phishingQuiz\Quiz.js", "JavaScript", 0, 91, 0, 0, 0, 9, 4, 104
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\phishingQuiz\context\Scam.jsx", "JavaScript React", 0, 0, 0, 0, 104, 3, 13, 120
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\phishingQuiz\context\quiz.js", "JavaScript", 0, 67, 0, 0, 0, 0, 2, 69
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\phishingQuiz\data.js", "JavaScript", 0, 43, 0, 0, 0, 24, 3, 70
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\phishingQuiz\goPhish.css", "CSS", 111, 0, 0, 0, 0, 0, 19, 130
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\phishingQuiz\goPhish.js", "JavaScript", 0, 14, 0, 0, 0, 0, 3, 17
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\components\phishingQuiz\helpers.js", "JavaScript", 0, 13, 0, 0, 0, 0, 0, 13
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\about\About.jsx", "JavaScript React", 0, 0, 0, 0, 32, 0, 3, 35
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\about\about.css", "CSS", 8, 0, 0, 0, 0, 0, 1, 9
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\adults\Adults.jsx", "JavaScript React", 0, 0, 0, 0, 96, 0, 15, 111
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\adults\adults.css", "CSS", 15, 0, 0, 0, 0, 0, 1, 16
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\adults\adults.html", "HTML", 0, 0, 0, 92, 0, 6, 5, 103
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\adults\resources\adultResources.json", "JSON", 0, 0, 44, 0, 0, 0, 4, 48
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\footer\Footer.jsx", "JavaScript React", 0, 0, 0, 0, 13, 0, 6, 19
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\footer\footer.css", "CSS", 6, 0, 0, 0, 0, 0, 1, 7
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\header\Header.jsx", "JavaScript React", 0, 0, 0, 0, 18, 5, 4, 27
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\header\header.css", "CSS", 25, 0, 0, 0, 0, 0, 5, 30
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\index.js", "JavaScript", 0, 8, 0, 0, 0, 0, 1, 9
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\kids\Kids.jsx", "JavaScript React", 0, 0, 0, 0, 84, 10, 9, 103
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\kids\kidResources.json", "JSON", 0, 0, 20, 0, 0, 0, 1, 21
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\kids\kids.css", "CSS", 15, 0, 0, 0, 0, 0, 1, 16
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\learning\Learning.jsx", "JavaScript React", 0, 0, 0, 0, 60, 38, 9, 107
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\learning\learning.css", "CSS", 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\learning\learningResources.json", "JSON", 0, 0, 20, 0, 0, 0, 1, 21
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\resources\Resources.jsx", "JavaScript React", 0, 0, 0, 0, 95, 0, 13, 108
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\resources\resources.css", "CSS", 19, 0, 0, 0, 0, 0, 4, 23
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\resources\resourcesData.json", "JSON", 0, 0, 20, 0, 0, 0, 1, 21
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\scam\Scam.jsx", "JavaScript React", 0, 0, 0, 0, 87, 28, 16, 131
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\scam\kidResources.json", "JSON", 0, 0, 20, 0, 0, 0, 1, 21
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\containers\scam\scam.css", "CSS", 15, 0, 0, 0, 0, 0, 3, 18
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\index.css", "CSS", 11, 0, 0, 0, 0, 0, 3, 14
+"c:\Users\jadec\WelcomingWeb\WelcomingWeb\src\index.js", "JavaScript", 0, 6, 0, 0, 0, 0, 2, 8
+"Total", "-", 376, 341, 29322, 274, 715, 139, 213, 31380

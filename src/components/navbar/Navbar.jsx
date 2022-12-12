@@ -17,9 +17,6 @@ const Navbar = () => {
           <p><a href='/Adults'>Adults</a></p>
           <p><a href='/Learning'>Learning</a></p>
           <p><a href='/Resources'>Resources</a></p>
-          
-          {/* <p><a href='/Scam'>Scam</a></p> */}
-
         </div>
       </div>   
       </div>
