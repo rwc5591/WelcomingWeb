@@ -9,7 +9,7 @@
     width: 20%;
     position: absolute;
     left: 80%;
-    top: 1%;
+    top: 0%;
 }
 
 .navbarlinks{
@@ -24,10 +24,12 @@
 }
 .navbarlinksLogo h1{
     color: black;
+    width: 85%;
 }
 
 .navbarlinkscontainer{
     flex-direction: row;
+    margin-right:14%;
 }
 .navbarlinkscontainer p,
 .navbarlinksmenucontainer p{

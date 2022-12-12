@@ -1,16 +1,44 @@
 @media (max-height: 300px){
     .carousel {
-        width: auto;
+        width: 100%;
         height: auto;
-        margin: 5em;
+        margin: 5rem;
+        background-color: beige;
+        margin: auto 0%;
+        padding: 0rem;
     }
     }
     .carousel-caption {
         background: rgba(128,128,128, 0.5);
+        width: 90%;
     }
     
     .col{
         background: white;
-        border-radius: 2em;
-        margin: 1em;
+        border-radius: 2rem;
+        margin: 1rem;
+    } 
+    .w-100{
+        width: auto !important;
+    }
+
+    .carouselTest{
+        width:90%;
+        margin: 0%;
+    }
+
+    .carousel-indicators{
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    .phishContainer{
+        background-color: black;
+        padding: 1rem;
+    }
+
+    .phishContainer img{
+        width: 83%;
+        height: 50%;
+        margin-left: 9%;
     }

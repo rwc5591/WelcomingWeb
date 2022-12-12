@@ -106,7 +106,6 @@ function ImportantInfoCarousel(){
                 <li>Random content offering money, sex, or job opportunities from unknown sources</li>
                 <li>Websites that automatically download things for you that you didn’t request</li>
                 
-
               </ul></p></Col>
           <Col>
             <h2>Test Your Knowlegde</h2>
