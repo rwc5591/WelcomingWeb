@@ -10,6 +10,7 @@ import adultResources from './resources/adultResources.json';
 import Card from 'react-bootstrap/Card';
 import Quiz from '../../components/phishingQuiz/Quiz';
 
+
 const Adults = () => {
   return (
     ImportantInfoCarousel()
@@ -25,63 +26,63 @@ function ImportantInfoCarousel(){
 
   const resources= adultResources.map((resources) => {
     return(
-      <Card key ={resources.id}>
-        <Card.Body>
-        <Card.Title>{resources.name}</Card.Title>
-        <Card.Text>{resources.desc}</Card.Text>
-        <a className="btn-primary"
-        href={resources.url}>
-          Go to Website
-        </a>
-        </Card.Body>
-      </Card>
+      <Card className="adultResourceCard" key ={resources.id}>
+      <Card.Body>
+      <Card.Title>{resources.name}</Card.Title>
+      <Card.Text>{resources.desc}</Card.Text>
+      </Card.Body>
+      <Card.Footer>
+      <Button className="resourceCardButton" href={resources.url}> Go to Website
+      </Button>
+      </Card.Footer>
+    </Card>
     );
     }
   )
 
 
   return(
-    <div>
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <div className="aCarousel">
+      <Carousel>
       <Carousel.Item>
-        <img width={200} height={400}
-          className= "d-block w-100"
-          src="goPhish.jpg"
-          alt="First slide" />
+        <img
+          className="d-block w-100"
+          src="getcoding.jpg"
+          alt="First slide"
+        />
         <Carousel.Caption>
-          <h3><a href='/GoPhish'>Go Phish!</a></h3>
-          <p>Can you tell which one is a scam? <a href='/GoPhish'>Click here to play</a></p>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-        width={200} height={400}
           className="d-block w-100"
-            src="learnabot.png"
+          src="getcoding.jpg"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3><a href="https://all.rit.edu/">Learn about accessibility</a></h3>
-          <p></p>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-        width={200} height={400}
           className="d-block w-100"
-          src="ludovic-toinel-nGwyaWKFRVI-unsplash.jpg"
+          src="getcoding.jpg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-        <h3><a href="https://www.connectsafely.org/">Connect Safely</a></h3>
+          <h3>Third slide label</h3>
           <p>
-           
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+
     <Container>
       <Row>
         <Col>
