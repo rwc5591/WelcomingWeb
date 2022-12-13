@@ -43,11 +43,12 @@ function ImportantInfoCarousel(){
       <Carousel.Item>
         <img width={200} height={300}
           className= "d-block w-100"
-          src="goPhish.jpg"
+          src="Interland.jpg"
           alt="First slide" />
         <Carousel.Caption>
-          <h3>Go Phish!</h3>
-          <p>Can you tell which one is a scam? <a href='/GoPhish'>Click here to play</a></p>
+          <h3>Interland</h3>
+          <p>A Fun game about exploring the internet!</p>
+          <a href= "https://beinternetawesome.withgoogle.com/en_us/interland">  <button className="carouselButton" type="button"> Go to site</button></a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -60,7 +61,8 @@ function ImportantInfoCarousel(){
 
         <Carousel.Caption>
           <h3><a href="https://kids.nationalgeographic.com/">National Geographic</a></h3>
-          <p><a href="https://kids.nationalgeographic.com/">Learn and play games</a></p>
+          <p>Learn and play games about the world!</p>
+          <a href= "https://kids.nationalgeographic.com/">  <button className="carouselButton" type="button"> Go to site</button></a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -76,6 +78,7 @@ function ImportantInfoCarousel(){
           <p>
             Coding for beginners.
           </p>
+          <a href= "https://code.org/">  <button className="carouselButton" type="button"> Go to site</button></a>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -45,11 +45,12 @@ function ImportantInfoCarousel(){
       <Carousel.Item>
         <img width={200} height={300}
           className= "d-block w-100"
-          src="goPhish.jpg"
+          src="learnabot.png"
           alt="First slide" />
         <Carousel.Caption>
-          <h3>Go Phish!</h3>
-          <p>Can you tell which one is a scam? <a href='/GoPhish'>Click here to play</a></p>
+          <h3>Accessible Learning Labs</h3>
+          <p>Learn about other people's experiences on the web.</p>
+          <a href= "https://all.rit.edu/">  <button className="carouselButton" type="button"> Go to site</button></a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -61,8 +62,9 @@ function ImportantInfoCarousel(){
         />
 
         <Carousel.Caption>
-          <h3><a href="https://kids.nationalgeographic.com/">National Geographic</a></h3>
-          <p><a href="https://kids.nationalgeographic.com/">Learn and play games</a></p>
+          <h3>Online Safety for Parents</h3>
+          <p>It's natural to want to keep your kids safe! Learn all the ways you could help them explore safely.</p>
+          <a href= "https://kidshealth.org/en/parents/net-safety.html">  <button className="carouselButton" type="button"> Go to site</button></a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -76,8 +78,9 @@ function ImportantInfoCarousel(){
         <Carousel.Caption>
           <h3>Learn to code</h3>
           <p>
-            Coding for beginners.
+            Want to help teach kids how to code? Check out the teacher page on code.org!
           </p>
+          <a href= "https://code.org/">  <button className="carouselButton" type="button"> Go to site</button></a>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

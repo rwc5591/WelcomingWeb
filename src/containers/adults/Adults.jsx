@@ -59,27 +59,29 @@ function ImportantInfoCarousel(){
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="getcoding.jpg"
+          src="zoom.png"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Zoom for Beginners</h3>
+          <p>Need to use zoom to talk to family or for work? This'll help get you started.</p>
+          <a href= "https://support.zoom.us/hc/en-us/articles/360034967471-Getting-started-guide-for-new-users">  <button className="carouselButton" type="button"> Go to site</button></a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="getcoding.jpg"
+          src="connectSafely.png"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Connect Safely</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Learn about internet safety so you can navigate with no worries!
           </p>
+          <a href= "https://www.connectsafely.org/">  <button className="carouselButton" type="button"> Go to site</button></a>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

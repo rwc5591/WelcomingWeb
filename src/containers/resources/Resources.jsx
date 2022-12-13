@@ -44,14 +44,15 @@ function ImportantInfoCarousel(){
       <Carousel.Item>
         <img width={200} height={300}
           className= "d-block w-100"
-          src="goPhish.jpg"
+          src="accessiblesyllabus.jpg"
           alt="First slide" />
         <Carousel.Caption>
-          <h3>Go Phish!</h3>
-          <p>Can you tell which one is a scam? <a href='/GoPhish'>Click here to play</a></p>
+          <h3>Accessible Syllabus</h3>
+          <p>A compilation of education and accessibility resources! </p>
+          <a href= "https://www.accessiblesyllabus.com/">  <button className="carouselButton" type="button"> Go to site</button></a>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+     {/**  <Carousel.Item>
         <img
         width={200} height={400}
           className="d-block w-100"
@@ -78,7 +79,7 @@ function ImportantInfoCarousel(){
             Coding for beginners.
           </p>
         </Carousel.Caption>
-      </Carousel.Item>
+  </Carousel.Item> */};
     </Carousel>
     <Container>
       <Row>
