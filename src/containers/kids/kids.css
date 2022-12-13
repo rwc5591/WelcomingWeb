@@ -55,9 +55,10 @@
     }
 
     .card-body{
-        display: flex;
+        /*display: flex;
         padding: 0.2rem;
-        margin: 1rem;
+        margin: 1rem;*/
+        padding: 1.2rem;
     }
 
     .card{

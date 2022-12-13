@@ -9,7 +9,8 @@ const Home = () => {
         { title: 'Card 2', body: 'lorem ipsum', url: 'null', id:2},
         { title: 'Card 3', body: 'lorem ipsum', url: 'null', id:3},
         { title: 'Card 4', body: 'lorem ipsum', url: 'null', id:4},
-        { title: 'Card 5', body: 'lorem ipsum', url: 'null', id:5},
+        { title: 'Submit your own info!', 
+            body: 'do you believe you have something you relate to or that would be important for someone to know? Submit it here', url: 'null', id:5},
     ]);
 
     return(
