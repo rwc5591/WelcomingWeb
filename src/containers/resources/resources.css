@@ -1,22 +1,73 @@
+.resourceCarousel .carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+    overflow: hidden;
+    height: 400px;
+    border: 10px solid;
+    border-color:var(--color-resources);
+}
 
-.Resources{
-    flex-direction:column;
-    text-align: center;
-    color:black;
+.carousel-caption{
+    background: rgba(128,128,128, 0.5);
+    object-position: center;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+.d-block{
+    display: block !important;
+}
+    
+.col{
+    background: white;
+    border-radius: 2rem;
+    margin: 1rem;
+} 
+
+.phishContainer{
+    background-color: white;
+    padding: 1rem;
+}
+
+.phishContainer img{
+    width: 89%;
+    height: 50%;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.reResourceCard resourcecardBox{
     display: flex;
-    border: 3px solid black;
-    width: 20%;
-    margin-left: auto;
+    flex-wrap: wrap;
+    padding: 1rem;
 }
 
-.Resources h2{
-    font-weight: 600dp;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
+.reResourceCard card-body{
+    display: flex;
+    padding: 0.2rem;
+    margin: 1rem;
 }
 
-.Resources h3{
-    font-weight: 600dp;
-    font-size: 18px;
-    color: rgb(12, 12, 11);
+.reResourceCard{
+    margin: 1rem;
+    text-align: center;
+    padding-top: 0.5%;
+    display: flex;
+    margin-right:auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.resourceCardButton{
+    background: rgba(128,128,128, 0.5);
+    width: 150px;
+}
+
+.resourceCardButton:hover{
+    background: rgb(45,48,71);
 }

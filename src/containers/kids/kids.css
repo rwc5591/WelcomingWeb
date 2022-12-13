@@ -1,66 +1,81 @@
-@media (max-height: 300px){
-    .carousel {
-        width: 100%;
-        height: auto;
-        margin: 5rem;
-        background-color: beige;
-        margin: auto 0%;
-        padding: 0rem;
-    }
+.kidCarousel .carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+    overflow: hidden;
+    height: 400px;
+    border: 10px solid;
+    border-color:var(--color-kid);
+}
 
-    .carousel img{
-        left: 1%;
-    }
-    }
-    .carousel-caption {
-        background: rgba(128,128,128, 0.5);
-        width: 90%;
-    }
+.carousel-caption{
+    background: rgba(128,128,128, 0.5);
+    object-position: center;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.carousel-indicators{
+    object-position: center;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+.d-block{
+    display: block !important;
+}
     
-    .col{
-        background: black;
-        border-radius: 2rem;
-        margin: 1rem;
-    } 
-    .w-100{
-        width: auto !important;
-    }
+.col{
+    background: white;
+    border-radius: 2rem;
+    margin: 1rem;
+} 
 
-    .carouselTest{
-        width:100%;
-        margin: 0%;
-    }
+.phishContainer{
+    background-color: white;
+    padding: 1rem;
+}
 
-    .carousel-indicators{
-        margin-right: 0%;
-        margin-left: 0%;
-    }
+.phishContainer img{
+    width: 89%;
+    height: 50%;
+    margin-left: 6%;
+    margin-top: 5%;
+}
 
-    .phishContainer{
-        background-color: black;
-        padding: 1rem;
-    }
+.kidResourceCard cardBox{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
 
-    .phishContainer img{
-        width: 89%;
-        height: 50%;
-        margin-left: 6%;
-        margin-top: 5%;
-    }
+.kidResourceCard card-body{
+    display: flex;
+    padding: 0.2rem;
+    margin: 1rem;
+}
 
-    .cardBox{
-        display: flex;
-        flex-wrap: wrap;
-        padding: 1rem;
-    }
+.kidResourceCard{
+    margin: 1rem;
+    text-align: center;
+}
 
-    .card-body{
-        /*display: flex;
-        padding: 0.2rem;
-        margin: 1rem;*/
-        padding: 1.2rem;
-    }
+.resourceCardButton{
+    background: rgba(128,128,128, 0.5);
+    width: 150px;
+}
 
-    .card{
-        margin: 1rem;
-    }
+.card-body{
+    /*display: flex;
+    padding: 0.2rem;
+    margin: 1rem;*/
+    padding: 1.2rem;
+}
+
+.resourceCardButton:hover{
+    background: rgb(45,48,71);
+}

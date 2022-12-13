@@ -13,10 +13,10 @@ const Navbar = () => {
         <div className='navbarlinkscontainer'>
           <p><a href='/home'>Home</a></p>
           <p><a href='/About'>About</a></p>
-          <p><a href='/Kids'>Kids</a></p>
-          <p><a href='/Adults'>Adults</a></p>
-          <p><a href='/Learning'>Learning</a></p>
-          <p><a href='/Resources'>Resources</a></p>
+          <p className="kidsRef"><a href='/Kids'>Kids</a></p>
+          <p className="adultsRef"><a href='/Adults'>Adults</a></p>
+          <p className="learningRef"><a href='/Learning'>Learning</a></p>
+          <p className="resourcesRef"><a href='/Resources'>Resources</a></p>
         </div>
       </div>   
       </div>

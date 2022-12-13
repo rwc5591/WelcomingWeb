@@ -43,3 +43,25 @@
     display: inline;
     cursor: pointer;
 }
+
+.kidsRef a{
+   text-decoration: underline;
+   text-decoration-thickness: 5px;
+   text-decoration-color: var(--color-kid);
+}
+.adultsRef a{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: var(--color-adult);
+ }
+
+ .learningRef a{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: var(--color-learn);
+ }
+ .resourcesRef a{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: var(--color-resources);
+ }

@@ -9,17 +9,9 @@ import resourcesData from './resourcesData.json';
 import Card from 'react-bootstrap/Card';
 
 const Resources = () => {
-    return (
-    <div className='Resources' id='Resources'>
-    <h2>Resources</h2>
-    <br></br>
-        <h3>Helpful Links</h3>   <br />         
-        <a href='https://www.connectsafely.org/medialiteracy/'>Connect Safely</a><br />
-            <a href="https://applieddigitalskills.withgoogle.com/c/en/artandgames">Applied Digital Skills</a> <br />
-          
-            
-    </div>
-    )
+  return (
+    ImportantInfoCarousel()
+  )
 }
 
 function ImportantInfoCarousel(){
@@ -31,26 +23,26 @@ function ImportantInfoCarousel(){
 
   const resources= resourcesData.map((resources) => {
     return(
-      <Card key ={resources.id}>
-        <Card.Body>
-        <Card.Title>{resources.name}</Card.Title>
-        <Card.Text>{resources.desc}</Card.Text>
-        <a className="btn-primary"
-        href={resources.url}>
-          Go to Website
-        </a>
-        </Card.Body>
-      </Card>
+      <Card className="reResourceCard" key ={resources.id}>
+      <Card.Body>
+      <Card.Title>{resources.name}</Card.Title>
+      <Card.Text>{resources.desc}</Card.Text>
+      </Card.Body>
+      <Card.Footer>
+      <Button className="resourceCardButton" href={resources.url}> Go to Website
+      </Button>
+      </Card.Footer>
+    </Card>
     );
     }
   )
 
 
   return(
-    <div>
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+   <div className="resourceCarousel">
+    <Carousel activeIndex={index} onSelect={handleSelect} className="carouselTest">
       <Carousel.Item>
-        <img width={900} height={500}
+        <img width={200} height={300}
           className= "d-block w-100"
           src="goPhish.jpg"
           alt="First slide" />
@@ -61,29 +53,29 @@ function ImportantInfoCarousel(){
       </Carousel.Item>
       <Carousel.Item>
         <img
-        width={900} height={500}
+        width={200} height={400}
           className="d-block w-100"
-          src="ImagePlaceholder.png"
+          src="robot.jpg"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3><a href="https://kids.nationalgeographic.com/">National Geographic</a></h3>
+          <p><a href="https://kids.nationalgeographic.com/">Learn and play games</a></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-        width={900} height={500}
+        width={200} height={400}
           className="d-block w-100"
-          src="ImagePlaceholder.png"
+          src="getcoding.jpg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Learn to code</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Coding for beginners.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -91,11 +83,13 @@ function ImportantInfoCarousel(){
     <Container>
       <Row>
         <Col>
-        <h2> Welcome to the Web! </h2>
-        <p> No matter your age, it's always a good practice to learn about the internet! 
-          If you're a beginner, why not check out some of our resources? Or play our new GoPhish game?</p></Col>
-        <Col><h2>Resources</h2>
-        <div> {resources} </div>
+        <h2> Resources </h2>
+        <p> Many websites have a similar mission to ours: to educate and show people the various aspects of life and the internet.
+          We have a variety of websites here that are similar to ours to explore! If you're a developer like us at Welcoming Web, you may also want to find resources
+        that can point you in a similar direction of accessibility.</p>
+        </Col>
+        <Col className="phishCont"><h2>Resources</h2>
+        <div className="cardBox"> {resources} </div>
         </Col>
 
       </Row>

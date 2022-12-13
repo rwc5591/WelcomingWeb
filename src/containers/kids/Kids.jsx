@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import kidResources from './kidResources.json'
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 const Kids = () => {
   return (
@@ -22,24 +23,24 @@ function ImportantInfoCarousel(){
 
   const resources= kidResources.map((resources) => {
     return(
-      <Card key ={resources.id}>
+      <Card className="kidResourceCard" key ={resources.id}>
         <Card.Body>
         <Card.Title>{resources.name}</Card.Title>
         <Card.Text>{resources.desc}</Card.Text>
-        <a className="btn-primary"
-        href={resources.url}>
-          Go to Website
-        </a>
         </Card.Body>
+        <Card.Footer>
+        <Button className="resourceCardButton" href={resources.url}> Go to Website
+        </Button>
+        </Card.Footer>
       </Card>
     );
     }
   )
 
   return(
-    <div>
+    <div className="kidCarousel">
     <Carousel activeIndex={index} onSelect={handleSelect} className="carouselTest">
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <img width={200} height={300}
           className= "d-block w-100"
           src="goPhish.jpg"
@@ -48,7 +49,7 @@ function ImportantInfoCarousel(){
           <h3>Go Phish!</h3>
           <p>Can you tell which one is a scam? <a href='/GoPhish'>Click here to play</a></p>
         </Carousel.Caption>
-      </Carousel.Item> */}
+      </Carousel.Item>
       <Carousel.Item>
         <img
         width={200} height={400}
@@ -78,6 +79,8 @@ function ImportantInfoCarousel(){
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+
+    
     <Container >
       <Row >
         <Col className="phishContainer">
