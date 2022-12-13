@@ -83,9 +83,10 @@ function ImportantInfoCarousel(){
     <Container>
       <Row>
         <Col>
-        <h2> Welcome to the Web! </h2>
-        <p> No matter your age, it's always a good practice to learn about the internet! 
-          If you're a beginner, why not check out some of our resources? Or play our new <a href='/GoPhish'>GO PHISH!</a> game?</p>
+        <h2> Resources </h2>
+        <p> Many websites have a similar mission to ours: to educate and show people the various aspects of life and the internet.
+          We have a variety of websites here that are similar to ours to explore! If you're a developer like us at Welcoming Web, you may also want to find resources
+        that can point you in a similar direction of accessibility.</p>
         </Col>
         <Col className="phishCont"><h2>Resources</h2>
         <div className="cardBox"> {resources} </div>

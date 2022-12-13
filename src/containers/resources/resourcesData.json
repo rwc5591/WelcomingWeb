@@ -1,21 +1,21 @@
 [
     {
         "id":1,
-        "name": "National Geographic" ,
-        "desc": "Learn about animals!",
-        "url" :"https://kids.nationalgeographic.com/"
+        "name": "Accessible Syllabus" ,
+        "desc": "A compilation of information about making the classroom accessible.",
+        "url" :"https://www.accessiblesyllabus.com/"
     },
     {
         "id":3,
-        "name": "Ted Talks for kids!" ,
-        "desc": "Watch and learn",
-        "url" :"https://www.ted.com/playlists/86/talks_to_watch_with_kids"
+        "name": "Critical Design Lab" ,
+        "desc": "A website centered on the culture around disability and the technology.",
+        "url" :"https://www.mapping-access.com/"
     },
     {
         "id":2,
-        "name": "Code.org" ,
-        "desc": "Learn how to code!",
-        "url" :"https://code.org/"
+        "name": "Designing for All" ,
+        "desc": "A detailed guide to designing for disabilities.",
+        "url" :"https://uxdesign.cc/designing-for-all-a-detailed-guide-to-designing-for-disabilities-aa92f5dcc49b"
     }
 
 ]

@@ -14,6 +14,15 @@
     vertical-align: middle;
     width: 50%;
 }
+.carouselButton{
+    width: 20%;
+    background: white;
+    border-radius: 2em;
+}
+
+.carouselButton:hover{
+    background: rgb(45,48,71);
+}
 
 .w-100{
     width: 100% !important;

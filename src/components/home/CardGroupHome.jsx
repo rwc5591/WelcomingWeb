@@ -10,7 +10,7 @@ function CardGroupHome() {
             <Card.Body>
             <Card.Title>For Kids</Card.Title>
             <Card.Text>
-                Welcoming Web for Kids has resources that are fun, educational, and safe to explore! 
+               Looking to explore the web? We have resources that are fun, educational, and safe to explore! Click below to start your internet adventure!
             </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -21,7 +21,7 @@ function CardGroupHome() {
             <Card.Body>
             <Card.Title>For Adults</Card.Title>
             <Card.Text>
-                Welcoming Web for Adults has resources that are educational and will solve all your quesitons about the internet today.
+                Need help navigating the internet? We have resources that are educational and will solve all your quesitons about the internet today. Click below!
             </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -32,7 +32,7 @@ function CardGroupHome() {
             <Card.Body>
             <Card.Title>Learn More</Card.Title>
             <Card.Text>
-                This page is all about learning things to share. How to set up websites, etc etc.
+                Have someone in mind? If you want to learn how to teach someone about the internet, or help others with internet-related issues, click below.
             </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -43,7 +43,7 @@ function CardGroupHome() {
             <Card.Body>
             <Card.Title>Resources</Card.Title>
             <Card.Text>
-                Are you on a similar mission? The resources page is filled with educational websites similar to ours. Go to this website if you want to explore!
+                Are you on a similar mission? The resources page is filled with educational websites similar to ours. Click the button below if you want to explore!
             </Card.Text>
             </Card.Body>
             <Card.Footer>

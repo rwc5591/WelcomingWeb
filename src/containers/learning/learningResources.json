@@ -1,21 +1,21 @@
 [
     {
         "id":1,
-        "name": "National Geographic" ,
-        "desc": "Learn about animals!",
-        "url" :"https://kids.nationalgeographic.com/"
+        "name": "Teaching Tech to Seniors" ,
+        "desc": "Sometimes teaching is a long process, here's a guide on how to best approach it.",
+        "url" :"https://neighborsdc.org/news/seniors-using-technology/"
     },
     {
         "id":3,
-        "name": "Ted Talks for kids!" ,
-        "desc": "Watch and learn",
+        "name": "AbleGamers" ,
+        "desc": "Accessibility is not always universal. Visit AbleGamers if you need or know someone who needs gaming accessibility.",
         "url" :"https://www.ted.com/playlists/86/talks_to_watch_with_kids"
     },
     {
         "id":2,
-        "name": "Code.org" ,
-        "desc": "Learn how to code!",
-        "url" :"https://code.org/"
+        "name": "Iphone Accessibility" ,
+        "desc": "Learning all about your iphone features can make life easier for you or your loved ones. Click below for a guide.",
+        "url" :"https://www.theverge.com/23180516/iphone-accessibility-apple-how-to"
     }
 
 ]

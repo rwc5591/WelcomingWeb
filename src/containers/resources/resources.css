@@ -41,7 +41,7 @@
     margin-top: 5%;
 }
 
-.reResourceCard cardBox{
+.reResourceCard resourcecardBox{
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
@@ -56,6 +56,11 @@
 .reResourceCard{
     margin: 1rem;
     text-align: center;
+    padding-top: 0.5%;
+    display: flex;
+    margin-right:auto;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .resourceCardButton{

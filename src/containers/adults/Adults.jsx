@@ -47,12 +47,13 @@ function ImportantInfoCarousel(){
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="getcoding.jpg"
+          src="email_basics_infographic.png"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Email for Beginners</h3>
+          <p>You're not alone! Learn all about a staple in online communication.</p>
+          <a href= "https://edu.gcfglobal.org/en/email101/introduction-to-email/1/">  <button className="carouselButton" type="button"> Go to site</button></a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
