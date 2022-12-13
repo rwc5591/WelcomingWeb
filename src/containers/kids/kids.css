@@ -69,6 +69,13 @@
     width: 150px;
 }
 
+.card-body{
+    /*display: flex;
+    padding: 0.2rem;
+    margin: 1rem;*/
+    padding: 1.2rem;
+}
+
 .resourceCardButton:hover{
     background: rgb(45,48,71);
 }
