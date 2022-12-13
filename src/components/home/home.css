@@ -74,6 +74,7 @@ h1, h2, h3, h4, p{
 
 .resourcePreviewButton:hover{
     background: rgb(45,48,71);
+    color: white;
 }
 
 .resourcePreviewButton{
